@@ -1,0 +1,19 @@
+{
+  "name": "get-external-run-id",
+  "version": "1.0.0",
+  "description": "Fetches the ID of the latest successful workflow run from an external repository.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && ncc build dist/index.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vercel/ncc": "^0.38.4",
+    "typescript": "^5.0.0"
+  }
+}

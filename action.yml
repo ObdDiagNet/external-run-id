@@ -1,0 +1,21 @@
+name: 'Get External Workflow Run ID'
+description: 'Fetches the ID of the latest successful Github Actions run from a specified external repository.'
+branding:
+  icon: 'download-cloud'
+  color: 'blue'
+inputs:
+  repository:
+    description: 'The owner/repo name of the source repository (e.g., my-org/my-app).'
+    required: true
+  workflow-file:
+    description: 'The file name of the source workflow (e.g., build.yml).'
+    required: true
+  github-token:
+    description: 'Personal Access Token (PAT) with actions:read scope for the source repo.'
+    required: true
+outputs:
+  run_id:
+    description: 'The ID of the latest successful workflow run.'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
