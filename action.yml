@@ -1,7 +1,7 @@
 name: 'Get External Workflow Run ID'
 description: 'Fetches the ID of the latest successful Github Actions run from a specified external repository.'
 branding:
-  icon: 'workflow'
+  icon: 'download-cloud'
   color: 'blue'
 inputs:
   repository:
