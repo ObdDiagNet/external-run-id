@@ -1,5 +1,5 @@
 # Get External Workflow Run ID
-[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-External_Workflow_ID-brightgreen?logo=github)](https://github.com/marketplace/actions/external-workflow-run-id)
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-External_Workflow_ID-brightgreen?logo=github)](https://github.com/marketplace/actions/get-external-workflow-run-id)
 
 A GitHub Action that fetches the ID of the latest successful workflow run from an external repository. It may be useful to configure download Artifacts from other repositories.
 
